@@ -16,7 +16,7 @@ before_install:
 - "./sfdx/install"
 - export PATH=./sfdx/$(pwd):$PATH
 - sfdx plugins --core
-- sfdx force:auth:jwt:grant --clientid $CONSUMERKEY --jwtkeyfile assets/server.key --username $USERNAME --setdefaultdevhubusername -a HubOrg
+- sfdx force:auth:jwt:grant --clientid 3MVG9fTLmJ60pJ5LT_n.W59xxp1ErYbeCpDby8PdjXYevytal4e5N4wBMJWpOWRgh6kHeb_MM9UaBofeO4HPy --jwtkeyfile assets/server.key --username sources@ei-technologies.com --setdefaultdevhubusername -a HubOrg
 
 
 script:
